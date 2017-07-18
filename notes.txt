@@ -1,0 +1,15 @@
+Angular has view encapsulation i.e. shadow DOM... It has unique attributes by angular to specific elements. Style encapsulation
+
+Once it changes style selector, it adds attribute selector to styles defined for the component
+
+We can apply diff styles for each element in shadow DOM
+
+
+
+
+Using ViewEncapsulation, we can add remove attributes from component
+
+
+
+
+Local reference can be used in template only
