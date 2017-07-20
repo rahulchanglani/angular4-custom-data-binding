@@ -19,3 +19,5 @@ Local reference can be used in template only
 <ng-content></ng-content> acts as a hook in our component to mark a place for angular 
 where it should place any component between opening and closing tag. Anything between 
 ng-content tags will be projected into your component view. Feature to build reusable widgets
+
+Content child has to be in child component (i.e. surrounding tags of component)
