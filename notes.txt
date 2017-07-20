@@ -13,3 +13,9 @@ Using ViewEncapsulation, we can add remove attributes from component
 
 
 Local reference can be used in template only
+
+
+
+<ng-content></ng-content> acts as a hook in our component to mark a place for angular 
+where it should place any component between opening and closing tag. Anything between 
+ng-content tags will be projected into your component. Feature to build reusable widgets
